@@ -1,1 +1,1 @@
-env WINE_FULLSCREEN_FSR=1 WINE_FULLSCREEN_FSR_STRENGTH=5 mangohud %command% -low -windowed -screen-width 320 -screen-height 240 -nointro -novid
+%command% && xrandr --output eDP-1 --mode 640x480
